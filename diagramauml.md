@@ -31,6 +31,3 @@ classDiagram
     Juego <|-- JuegoAdivinaNumero
     JuegoAdivinaNumero <|-- JuegoAdivinaPar
     JuegoAdivinaNumero <|-- JuegoAdivinaImpar
-    Main ..> JuegoAdivinaNumero : "usa"
-    Main ..> JuegoAdivinaPar : "usa"
-    Main ..> JuegoAdivinaImpar : "usa"
