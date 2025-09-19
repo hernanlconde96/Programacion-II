@@ -1,6 +1,6 @@
-```mermaid
-// tu diagrama aquí
+## Diagrama UML - Juego Adivina Número
 
+```mermaid
 classDiagram
     class Juego {
         - numeroDeVidas : int
