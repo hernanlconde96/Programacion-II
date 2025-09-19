@@ -1,3 +1,6 @@
+```mermaid
+// tu diagrama aquí
+
 classDiagram
     class Juego {
         - numeroDeVidas : int
