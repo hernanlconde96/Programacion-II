@@ -28,10 +28,6 @@ classDiagram
         + validaNumero(int n) : boolean
     }
 
-    class Main {
-        + main(String[] args) : void
-    }
-
     Juego <|-- JuegoAdivinaNumero
     JuegoAdivinaNumero <|-- JuegoAdivinaPar
     JuegoAdivinaNumero <|-- JuegoAdivinaImpar
