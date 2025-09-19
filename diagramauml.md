@@ -1,4 +1,4 @@
-## Diagrama UML - Juego Adivina Número
+## 🎮 Diagrama UML - Juego Adivina Número
 
 ```mermaid
 classDiagram
@@ -13,30 +13,28 @@ classDiagram
 
     class JuegoAdivinaNumero {
         - numeroAAdivinar : int
-        - intentosMaximos : int
-        + JuegoAdivinaNumero(int intentosMaximos)
+        + JuegoAdivinaNumero(int numeroDeVidas)
         + juega() : void
         + validaNumero(int n) : boolean
-        # generaNumeroAAdivinar() : int
     }
 
     class JuegoAdivinaPar {
-        + JuegoAdivinaPar(int intentosMaximos)
+        + JuegoAdivinaPar(int numeroDeVidas)
         + validaNumero(int n) : boolean
-        # generaNumeroAAdivinar() : int
     }
 
     class JuegoAdivinaImpar {
-        + JuegoAdivinaImpar(int intentosMaximos)
+        + JuegoAdivinaImpar(int numeroDeVidas)
         + validaNumero(int n) : boolean
-        # generaNumeroAAdivinar() : int
     }
 
-    class Aplicacion {
+    class Main {
         + main(String[] args) : void
     }
 
     Juego <|-- JuegoAdivinaNumero
     JuegoAdivinaNumero <|-- JuegoAdivinaPar
     JuegoAdivinaNumero <|-- JuegoAdivinaImpar
-    Aplicacion ..> JuegoAdivinaNumero : "crea / usa"
+    Main ..> JuegoAdivinaNumero : "usa"
+    Main ..> JuegoAdivinaPar : "usa"
+    Main ..> JuegoAdivinaImpar : "usa"
