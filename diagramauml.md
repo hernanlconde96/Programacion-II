@@ -1,4 +1,4 @@
-## 🎮 Diagrama UML - Juego Adivina Número
+## Diagrama UML - Juego Adivina Número
 
 ```mermaid
 classDiagram
