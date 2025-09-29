@@ -1,8 +1,3 @@
-
----
-
-# 📂 `figuras_uml.md`
-```markdown
 # Diagrama UML - Figuras
 
 ```mermaid
@@ -17,8 +12,8 @@ classDiagram
         + Figura(String color)
         + setColor(String) void
         + getColor() String
-        + area() double*
-        + perimetro() double*
+        + area() double
+        + perimetro() double
         + toString() String
     }
 
