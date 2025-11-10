@@ -1,3 +1,4 @@
+```mermaid
 classDiagram
     class Biblioteca {
         - nombre: String
@@ -61,4 +62,3 @@ classDiagram
     Biblioteca "1" o-- "many" Autor
     Prestamo --> Estudiante
     Prestamo --> Libro
-
