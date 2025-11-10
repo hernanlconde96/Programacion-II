@@ -56,6 +56,9 @@ classDiagram
         + mostrarInfo()
     }
 
-  
+    Biblioteca "1" *-- "1" Horario
+    Libro "1" *-- "many" Pagina
+    Biblioteca "1" o-- "many" Libro
+    Biblioteca "1" o-- "many" Autor
     Prestamo --> Estudiante
     Prestamo --> Libro
