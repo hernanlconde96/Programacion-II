@@ -1,0 +1,103 @@
+{
+  "libros": [
+    {
+      "titulo": "Cien a\u00f1os de soledad",
+      "isbn": "1234567890",
+      "paginas": [
+        "Muchos a\u00f1os despu\u00e9s...",
+        "El coronel...",
+        "Final..."
+      ]
+    },
+    {
+      "titulo": "El principito",
+      "isbn": "0987654321",
+      "paginas": [
+        "Dibujo 1",
+        "Dibujo 2",
+        "La rosa"
+      ]
+    },
+    {
+      "titulo": "Luna De Pluton",
+      "isbn": "1234",
+      "paginas": [
+        "texto aquiiiiiiiiiiiiiii askldjaldjasldasjldja"
+      ]
+    },
+    {
+      "titulo": "algebra 1",
+      "isbn": "7777",
+      "paginas": [
+        "djkasjdklajkldajkdjkadjadjakldjldjasljaskljaskldjaskldjaskljdkasljdaskljdkasldjklasjaskljdkasldjkasdljaskldj"
+      ]
+    },
+    {
+      "titulo": "Calculo 1",
+      "isbn": "8888",
+      "paginas": [
+        "djaskljdaskljkldjaskldjlasdjakljasljlldjlasdjkasljdjasldjlasjkdljasdjkasjdklasjkdjaskdjkasldjaskljdaksljdaskldjaskldjakldjaskljdakljdkasldjasldjaskldjaskldjkl"
+      ]
+    },
+    {
+      "titulo": "cualquiera",
+      "isbn": "123456",
+      "paginas": [
+        ""
+      ]
+    }
+  ],
+  "autores": [
+    {
+      "nombre": "Gabriel Garc\u00eda M\u00e1rquez",
+      "nacionalidad": "Colombiano"
+    },
+    {
+      "nombre": "Antoine de Saint-Exup\u00e9ry",
+      "nacionalidad": "Franc\u00e9s"
+    }
+  ],
+  "estudiantes": [
+    {
+      "codigo": "2024001",
+      "nombre": "Ana Garc\u00eda"
+    },
+    {
+      "codigo": "2024002",
+      "nombre": "Carlos L\u00f3pez"
+    },
+    {
+      "codigo": "12345",
+      "nombre": "hernan"
+    },
+    {
+      "codigo": "123",
+      "nombre": "hernan"
+    },
+    {
+      "codigo": "1111",
+      "nombre": "fernando"
+    },
+    {
+      "codigo": "7777",
+      "nombre": "rafael Copa"
+    }
+  ],
+  "prestamos": [
+    {
+      "codigo": "123",
+      "isbn": "1234",
+      "fecha": "03/12/2025"
+    },
+    {
+      "codigo": "7777",
+      "isbn": "1234567890",
+      "fecha": "03/12/2025"
+    },
+    {
+      "codigo": "1111",
+      "isbn": "123456",
+      "fecha": "03/12/2025"
+    }
+  ]
+}
