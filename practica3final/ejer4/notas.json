@@ -1,0 +1,46 @@
+[
+  {
+    "materia": "fisica",
+    "notafinal": 88.0,
+    "estudiante": {
+      "ru": 123456,
+      "nombre": "hernan",
+      "paterno": "conde",
+      "materno": "ajata",
+      "edad": 25
+    }
+  },
+  {
+    "materia": "inf",
+    "notafinal": 77.0,
+    "estudiante": {
+      "ru": 456789,
+      "nombre": "max",
+      "paterno": "copa",
+      "materno": "apaza",
+      "edad": 28
+    }
+  },
+  {
+    "materia": "matematica",
+    "notafinal": 96.0,
+    "estudiante": {
+      "ru": 789451,
+      "nombre": "rafael",
+      "paterno": "gomez",
+      "materno": "apaza",
+      "edad": 18
+    }
+  },
+  {
+    "materia": "quimica",
+    "notafinal": 45.0,
+    "estudiante": {
+      "ru": 456444,
+      "nombre": "edwin",
+      "paterno": "gomez",
+      "materno": "paillo",
+      "edad": 35
+    }
+  }
+]

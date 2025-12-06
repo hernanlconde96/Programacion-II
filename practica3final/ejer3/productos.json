@@ -1,0 +1,17 @@
+[
+  {
+    "codigo": 123,
+    "nombre": "papitas",
+    "precio": 5.0
+  },
+  {
+    "codigo": 789,
+    "nombre": "coca cola",
+    "precio": 11.0
+  },
+  {
+    "codigo": 456,
+    "nombre": "cepillo",
+    "precio": 8.0
+  }
+]
