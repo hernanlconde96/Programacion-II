@@ -1,0 +1,72 @@
+{
+  "medicos": [
+    {
+      "id": 1,
+      "nombre": "hernan",
+      "apellido": "conde",
+      "experiencia": "8"
+    },
+    {
+      "id": 2,
+      "nombre": "fernando",
+      "apellido": "choque",
+      "experiencia": "14"
+    }
+  ],
+  "consultas": [
+    {
+      "nombre": "max",
+      "apellido": "copa",
+      "medico_id": 1,
+      "dia": "9",
+      "mes": "enero",
+      "anio": "2026",
+      "ci": 123456
+    },
+    {
+      "nombre": "edwin",
+      "apellido": "gomez",
+      "medico_id": 2,
+      "dia": "1",
+      "mes": "enero",
+      "anio": "2025",
+      "ci": 45689722
+    },
+    {
+      "nombre": "rafael",
+      "apellido": "condori",
+      "medico_id": 2,
+      "dia": "26",
+      "mes": "enero",
+      "anio": "2026",
+      "ci": 55597996
+    },
+    {
+      "nombre": "willy",
+      "apellido": "copa",
+      "medico_id": 1,
+      "dia": "16",
+      "mes": "febrero",
+      "anio": "2026",
+      "ci": 456833
+    },
+    {
+      "nombre": "juana",
+      "apellido": "apaza",
+      "medico_id": 2,
+      "dia": "30",
+      "mes": "agosto",
+      "anio": "2026",
+      "ci": 4568899
+    },
+    {
+      "nombre": "carla",
+      "apellido": "mendoza",
+      "medico_id": 1,
+      "dia": "11",
+      "mes": "agosto",
+      "anio": "2026",
+      "ci": 66698774
+    }
+  ]
+}
